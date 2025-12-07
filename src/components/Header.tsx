@@ -46,12 +46,12 @@ const Header = ({ cartItemsCount, onCartClick }: HeaderProps) => {
             <Button
               variant="ghost"
               size="icon"
-              className="relative"
+              className="relative group transition-all duration-300 hover:bg-primary/10"
               onClick={onCartClick}
             >
-              <Icon name="ShoppingCart" size={20} />
+              <Icon name="ShoppingCart" size={20} className="transition-transform group-hover:scale-110" />
               {cartItemsCount > 0 && (
-                <Badge className="absolute -top-1 -right-1 h-5 w-5 rounded-full p-0 flex items-center justify-center text-xs">
+                <Badge className="absolute -top-1 -right-1 h-5 w-5 rounded-full p-0 flex items-center justify-center text-xs animate-pulse bg-primary">
                   {cartItemsCount}
                 </Badge>
               )}

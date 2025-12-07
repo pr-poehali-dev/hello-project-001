@@ -42,12 +42,17 @@ const Catalog = ({ products, onAddToCart }: CatalogProps) => {
         </Tabs>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredProducts.map((product) => (
-            <ProductCard
+          {filteredProducts.map((product, index) => (
+            <div
               key={product.id}
-              product={product}
-              onAddToCart={onAddToCart}
-            />
+              className="animate-fade-in-up"
+              style={{ animationDelay: `${index * 50}ms` }}
+            >
+              <ProductCard
+                product={product}
+                onAddToCart={onAddToCart}
+              />
+            </div>
           ))}
         </div>
 

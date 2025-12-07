@@ -16,10 +16,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <Button size="lg" className="text-base px-8" asChild>
+            <Button size="lg" className="text-base px-8 btn-glow" asChild>
               <a href="#catalog">Смотреть каталог</a>
             </Button>
-            <Button size="lg" variant="outline" className="text-base px-8" asChild>
+            <Button size="lg" variant="outline" className="text-base px-8 hover:bg-primary hover:text-primary-foreground transition-all duration-300" asChild>
               <a href="#about">Узнать больше</a>
             </Button>
           </div>

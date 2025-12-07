@@ -21,7 +21,7 @@ const Index = () => {
       id: 1,
       name: 'Беспроводные наушники Premium',
       price: 8990,
-      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&h=800&fit=crop&q=80',
       category: 'Электроника',
       inStock: true
     },
@@ -29,7 +29,7 @@ const Index = () => {
       id: 2,
       name: 'Умные часы Sport Edition',
       price: 12990,
-      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=800&fit=crop&q=80',
       category: 'Электроника',
       inStock: true
     },
@@ -37,7 +37,7 @@ const Index = () => {
       id: 3,
       name: 'Минималистичный рюкзак',
       price: 4990,
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=800&fit=crop&q=80',
       category: 'Аксессуары',
       inStock: true
     },
@@ -45,7 +45,7 @@ const Index = () => {
       id: 4,
       name: 'Керамическая кружка',
       price: 890,
-      image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&h=800&fit=crop&q=80',
       category: 'Дом',
       inStock: true
     },
@@ -53,7 +53,7 @@ const Index = () => {
       id: 5,
       name: 'Портативная колонка',
       price: 5990,
-      image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&h=800&fit=crop&q=80',
       category: 'Электроника',
       inStock: true
     },
@@ -61,7 +61,7 @@ const Index = () => {
       id: 6,
       name: 'Стильный блокнот',
       price: 690,
-      image: 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=800&h=800&fit=crop&q=80',
       category: 'Канцелярия',
       inStock: true
     },
@@ -69,7 +69,7 @@ const Index = () => {
       id: 7,
       name: 'Беспроводная мышь',
       price: 2490,
-      image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&h=800&fit=crop&q=80',
       category: 'Электроника',
       inStock: false
     },
@@ -77,7 +77,7 @@ const Index = () => {
       id: 8,
       name: 'USB-C хаб',
       price: 3490,
-      image: 'https://images.unsplash.com/photo-1625948515291-69613efd103f?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1625948515291-69613efd103f?w=800&h=800&fit=crop&q=80',
       category: 'Электроника',
       inStock: true
     }
